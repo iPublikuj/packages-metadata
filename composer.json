@@ -1,0 +1,25 @@
+{
+	"name"			: "ipub/packages-metadata",
+	"type"			: "library",
+	"description"	: "Packages metadata sources",
+	"keywords"		: ["nette", "packages", "cms", "modular system", "ipub", "ipublikuj"],
+	"homepage"		: "https://github.com/iPublikuj/packages-metadata",
+	"license"		: ["GPL-2.0", "GPL-3.0"],
+
+	"authors": [
+		{
+			"name"		: "iPublikuj:cms",
+			"email"		: "info@ipublikuj.eu",
+			"homepage"	: "https://www.ipublikuj.eu/"
+		}
+	],
+
+	"support": {
+		"email"		:"support@ipublikuj.eu",
+		"issues"	:"https://github.com/iPublikuj/packages-metadata/issues"
+	},
+
+	"require": {
+		"ipub/packages"	: "^1.0"
+	}
+}

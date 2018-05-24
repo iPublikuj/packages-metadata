@@ -95,6 +95,30 @@
 			}
 		}
 	],
+	"kdyby/monolog": [
+		{
+			"version": "*",
+			"metadata": {
+				"configuration": {
+					"extensions": {
+						"monolog": "Kdyby\\Monolog\\DI\\MonologExtension"
+					}
+				}
+			}
+		}
+	],
+	"kdyby/rabbitmq": [
+		{
+			"version": "*",
+			"metadata": {
+				"configuration": {
+					"extensions": {
+						"rabbitMQ": "Kdyby\\RabbitMq\\DI\\RabbitMqExtension"
+					}
+				}
+			}
+		}
+	],
 	"nette/nette": [
 		{
 			"version": "*",
@@ -111,6 +135,31 @@
 				"configuration": {
 					"extensions": {
 						"ajaxHistory": "VojtechDobes\\NetteAjax\\HistoryExtension"
+					}
+				}
+			}
+		}
+	],
+	"nasext/dependent-select-box": [
+		{
+			"version": "*",
+			"metadata": {
+				"relativePublicPath": "/client-side",
+				"configuration": {
+					"extensions": {
+						"dependentSelectBox": "NasExt\\Forms\\DI\\DependentSelectBoxExtension"
+					}
+				}
+			}
+		}
+	],
+	"nettrine/extensions": [
+		{
+			"version": "*",
+			"metadata": {
+				"configuration": {
+					"extensions": {
+						"gedmo": "Nettrine\\Extensions\\DI\\DoctrineExtensionsExtension"
 					}
 				}
 			}
