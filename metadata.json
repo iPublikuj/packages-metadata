@@ -1,168 +1,168 @@
 {
-	"kdyby/annotations": [
-		{
-			"version": "*",
-			"metadata": {
-				"configuration": {
-					"extensions": {
-						"annotations": "Kdyby\\Annotations\\DI\\AnnotationsExtension"
-					}
-				}
-			}
-		}
-	],
-	"kdyby/console": [
-		{
-			"version": "*",
-			"metadata": {
-				"configuration": {
-					"extensions": {
-						"console": "Kdyby\\Console\\DI\\ConsoleExtension"
-					}
-				}
-			}
-		}
-	],
-	"kdyby/doctrine": [
-		{
-			"version": "*",
-			"metadata": {
-				"configuration": {
-					"extensions": {
-						"doctrine": "Kdyby\\Doctrine\\DI\\OrmExtension"
-					}
-				}
-			}
-		}
-	],
-	"kdyby/doctrine-forms": [
-		{
-			"version": "*",
-			"metadata": {
-				"configuration": {
-					"extensions": {
-						"doctrineForms": "Kdyby\\DoctrineForms\\DI\\FormsExtension"
-					}
-				}
-			}
-		}
-	],
-	"kdyby/events": [
-		{
-			"version": "*",
-			"metadata": {
-				"configuration": {
-					"extensions": {
-						"events": "Kdyby\\Events\\DI\\EventsExtension"
-					}
-				}
-			}
-		}
-	],
-	"kdyby/forms-replicator": [
-		{
-			"version": "*",
-			"metadata": {
-				"configuration": {
-					"extensions": {
-						"replicator": "Kdyby\\Replicator\\DI\\ReplicatorExtension"
-					}
-				}
-			}
-		}
-	],
-	"kdyby/translation": [
-		{
-			"version": "*",
-			"metadata": {
-				"configuration": {
-					"extensions": {
-						"translation": "Kdyby\\Translation\\DI\\TranslationExtension"
-					}
-				}
-			}
-		}
-	],
-	"kdyby/validator": [
-		{
-			"version": "*",
-			"metadata": {
-				"configuration": {
-					"extensions": {
-						"validator": "Kdyby\\Validator\\DI\\ValidatorExtension"
-					}
-				}
-			}
-		}
-	],
-	"kdyby/monolog": [
-		{
-			"version": "*",
-			"metadata": {
-				"configuration": {
-					"extensions": {
-						"monolog": "Kdyby\\Monolog\\DI\\MonologExtension"
-					}
-				}
-			}
-		}
-	],
-	"kdyby/rabbitmq": [
-		{
-			"version": "*",
-			"metadata": {
-				"configuration": {
-					"extensions": {
-						"rabbitMQ": "Kdyby\\RabbitMq\\DI\\RabbitMqExtension"
-					}
-				}
-			}
-		}
-	],
-	"nette/nette": [
-		{
-			"version": "*",
-			"metadata": {
-				"relativePublicPath": "/client-side"
-			}
-		}
-	],
-	"vojtech-dobes/nette-ajax-history": [
-		{
-			"version": "*",
-			"metadata": {
-				"relativePublicPath": "/client-side",
-				"configuration": {
-					"extensions": {
-						"ajaxHistory": "VojtechDobes\\NetteAjax\\HistoryExtension"
-					}
-				}
-			}
-		}
-	],
-	"nasext/dependent-select-box": [
-		{
-			"version": "*",
-			"metadata": {
-				"relativePublicPath": "/client-side",
-				"configuration": {
-					"extensions": {
-						"dependentSelectBox": "NasExt\\Forms\\DI\\DependentSelectBoxExtension"
-					}
-				}
-			}
-		}
-	],
-	"nettrine/extensions": [
-		{
-			"version": "*",
-			"metadata": {
-				"configuration": {
-					"extensions": {
-						"gedmo": "Nettrine\\Extensions\\DI\\DoctrineExtensionsExtension"
-					}
-				}
-			}
-		}
-	]
+  "kdyby/annotations" : [
+    {
+      "version" : "*",
+      "metadata" : {
+        "configuration" : {
+          "extensions" : {
+            "annotations" : "Kdyby\\Annotations\\DI\\AnnotationsExtension"
+          }
+        }
+      }
+    }
+  ],
+  "kdyby/console" : [
+    {
+      "version" : "*",
+      "metadata" : {
+        "configuration" : {
+          "extensions" : {
+            "console" : "Kdyby\\Console\\DI\\ConsoleExtension"
+          }
+        }
+      }
+    }
+  ],
+  "kdyby/doctrine" : [
+    {
+      "version" : "*",
+      "metadata" : {
+        "configuration" : {
+          "extensions" : {
+            "doctrine" : "Kdyby\\Doctrine\\DI\\OrmExtension"
+          }
+        }
+      }
+    }
+  ],
+  "kdyby/doctrine-forms" : [
+    {
+      "version" : "*",
+      "metadata" : {
+        "configuration" : {
+          "extensions" : {
+            "doctrineForms" : "Kdyby\\DoctrineForms\\DI\\FormsExtension"
+          }
+        }
+      }
+    }
+  ],
+  "kdyby/events" : [
+    {
+      "version" : "*",
+      "metadata" : {
+        "configuration" : {
+          "extensions" : {
+            "events" : "Kdyby\\Events\\DI\\EventsExtension"
+          }
+        }
+      }
+    }
+  ],
+  "kdyby/forms-replicator" : [
+    {
+      "version" : "*",
+      "metadata" : {
+        "configuration" : {
+          "extensions" : {
+            "replicator" : "Kdyby\\Replicator\\DI\\ReplicatorExtension"
+          }
+        }
+      }
+    }
+  ],
+  "kdyby/translation" : [
+    {
+      "version" : "*",
+      "metadata" : {
+        "configuration" : {
+          "extensions" : {
+            "translation" : "Kdyby\\Translation\\DI\\TranslationExtension"
+          }
+        }
+      }
+    }
+  ],
+  "kdyby/validator" : [
+    {
+      "version" : "*",
+      "metadata" : {
+        "configuration" : {
+          "extensions" : {
+            "validator" : "Kdyby\\Validator\\DI\\ValidatorExtension"
+          }
+        }
+      }
+    }
+  ],
+  "kdyby/monolog" : [
+    {
+      "version" : "*",
+      "metadata" : {
+        "configuration" : {
+          "extensions" : {
+            "monolog" : "Kdyby\\Monolog\\DI\\MonologExtension"
+          }
+        }
+      }
+    }
+  ],
+  "kdyby/rabbitmq" : [
+    {
+      "version" : "*",
+      "metadata" : {
+        "configuration" : {
+          "extensions" : {
+            "rabbitMQ" : "Kdyby\\RabbitMq\\DI\\RabbitMqExtension"
+          }
+        }
+      }
+    }
+  ],
+  "nette/nette" : [
+    {
+      "version" : "*",
+      "metadata" : {
+        "relativePublicPath" : "/client-side"
+      }
+    }
+  ],
+  "vojtech-dobes/nette-ajax-history" : [
+    {
+      "version" : "*",
+      "metadata" : {
+        "relativePublicPath" : "/client-side",
+        "configuration" : {
+          "extensions" : {
+            "ajaxHistory" : "VojtechDobes\\NetteAjax\\HistoryExtension"
+          }
+        }
+      }
+    }
+  ],
+  "nasext/dependent-select-box" : [
+    {
+      "version" : "*",
+      "metadata" : {
+        "relativePublicPath" : "/client-side",
+        "configuration" : {
+          "extensions" : {
+            "dependentSelectBox" : "NasExt\\Forms\\DI\\DependentSelectBoxExtension"
+          }
+        }
+      }
+    }
+  ],
+  "nettrine/extensions" : [
+    {
+      "version" : "*",
+      "metadata" : {
+        "configuration" : {
+          "extensions" : {
+            "gedmo" : "Nettrine\\Extensions\\DI\\DoctrineExtensionsExtension"
+          }
+        }
+      }
+    }
+  ]
 } 
