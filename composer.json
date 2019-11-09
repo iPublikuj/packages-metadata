@@ -10,7 +10,9 @@
     "ipub",
     "ipublikuj"
   ],
+
   "homepage" : "https://github.com/iPublikuj/packages-metadata",
+
   "license" : [
     "GPL-2.0",
     "GPL-3.0"
